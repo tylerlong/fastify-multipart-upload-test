@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
-    "test": "node dist/main.js",
+    "test": "ts-node src/index.ts",
     "build": "webpack --progress"
   },
   "dependencies": {
